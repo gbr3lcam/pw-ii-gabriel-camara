@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <form action="atividade_2.php" method="post">
+        <legend>Atividade 2</legend>
+        <p>opções radio:</p>
+        <input type="radio" id="php" name="opcao" value="php">
+        <label for="opcao1">Amar PHP (opção errada)</label><br>
+        <input type="radio" id="python" name="opcao" value="python">
+        <label for="opcao2">Amar Python (opção certa)</label><br>
+        <input type="radio" id="nenhum" name="opcao" value="nenhum">
+        <label for="opcao3">Nenhum</label><br><br>
+        
+        <p>opções checkbox:</p>
+        <input type="checkbox" id="frontend" name="preferencias[]" value="frontend">
+        <label for="preferencia1">Front End</label><br>
+        <input type="checkbox" id="backend" name="preferencias[]" value="backend">
+        <label for="preferencia2">Back End</label><br>
+        <input type="checkbox" id="fullstack" name="preferencias[]" value="fullstack">
+        <label for="preferencia3">Full Stack (o melhor)</label><br><br>
+        
+        <label for="texto">o que você gosta em DS?</label><br>
+        <input type="text" id="texto" name="texto"><br><br>
+        
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
